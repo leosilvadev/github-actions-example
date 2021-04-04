@@ -22,7 +22,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "format:check": "prettier --check **/*.{js,ts,jsx,yml,yaml,json,css,scss,md}",
-        "format": "prettier --write **/*.{js,ts,jsx,yml,yaml,json,css,scss,md}"
+        "format": "prettier --write **/*.{js,ts,yml,json,css,md}"
     },
     "eslintConfig": {
         "extends": [

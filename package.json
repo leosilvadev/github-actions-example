@@ -17,18 +17,12 @@
         "web-vitals": "^1.1.1"
     },
     "scripts": {
-        "prepare": "husky install",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "format:check": "prettier --check **.{js,ts,yml,json,css,md}",
         "format": "prettier --write **.{js,ts,yml,json,css,md}"
-    },
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-        }
     },
     "eslintConfig": {
         "extends": [
